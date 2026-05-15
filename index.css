@@ -1,0 +1,113 @@
+/* --- ESTILOS GENERALES --- */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f2f5;
+    color: #0b0b0b;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #39A900; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1, header h2 {
+    margin: 5px;
+}
+
+/* ---- Contenedor principal ----  */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Cajas blancas para el contenido */
+section, .contenido-pagina {
+    background: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-left: 6px solid #39A900;
+}
+
+/* Títulos */
+h3 {
+    color: #39A900;
+}
+h2 {
+    color: #f7f8f6;
+}
+
+/* Botón de volver atrás */
+.boton-volver {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #39A900;
+    font-weight: bold;
+}
+
+
+/* Imágenes */
+img {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #050505;
+}
+
+/* --- DISEÑO DE CARPETAS --- */
+.contenedor-carpetas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.carpeta {
+    text-decoration: none;
+    color: #333;
+    width: 150px;
+}
+
+
+.pestana {
+    width: 50px;
+    height: 12px;
+    background-color: #FFC107;
+    border-radius: 5px 5px 0 0;
+}
+
+.cuerpo-carpeta {
+    background-color: #FFD54F;
+    height: 90px;
+    border-radius: 0 8px 8px 8px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #FFB300;
+}
+
+/* --- TABLA GANTT --- */
+.tabla-gantt {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-gantt th, .tabla-gantt td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.check { background-color: #39A900; }
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+}
